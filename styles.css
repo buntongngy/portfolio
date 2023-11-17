@@ -24,7 +24,7 @@ header {
 }
 
 body {
-   background-color: skyblue;
+    background-image: url(https://imgs.search.brave.com/i3SKm9oV9mvcW6ECjjtsCBCSx7mPBPczyIhLuIbl4gI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvc29s/aWQtY29sb3ItYmFj/a2dyb3VuZC1taDU2/NXZ1czJqajVjaWF0/LmpwZw);
     background-repeat: no-repeat;
     background-size: cover;
    border-left: 20cm;
@@ -35,7 +35,7 @@ body {
 
 nav ul {
   display: flex;
-   
+   margin-bottom: 2px;
     padding: 5px;
     outline: 2px dotted gray;
   justify-content: space-between ;
@@ -47,6 +47,9 @@ nav ul {
   
 }
 
+li {
+    margin-bottom: 2px;
+}
 
 a {
     color: black;
@@ -65,7 +68,7 @@ div {
     outline: 2px dotted gray;
     color: black;
     background-color: lightblue;
-    height: 22.9cm;
+    height: 24.5cm;
 }
 
 section {
